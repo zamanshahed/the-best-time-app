@@ -7,6 +7,9 @@ const useGeneralStore = create((set) => ({
     mainData: {},
     setMainData: (value) => set({ mainData: value }),
 
+    selectedSection: {},
+    setSelectedSection: (value) => set({ selectedSection: value }),
+
 }))
 
 export default useGeneralStore
